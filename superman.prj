@@ -4,5 +4,5 @@
    <name>superman</name>
    <tag></tag>
    <UUID>81ee900b-9b55-4e7f-bd85-2e0fee925e66</UUID>
-   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeout>0</pageLoadTimeout>
 </Project>
