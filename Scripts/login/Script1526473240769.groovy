@@ -21,3 +21,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('https://www.baidu.com/')
 
+WebUI.setText(findTestObject('search/text'), 'github')
+
+WebUI.click(findTestObject('search/button'))
+
