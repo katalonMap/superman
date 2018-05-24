@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+New Test Suite,,,2018-05-24 10:25:49,2018-05-24 10:25:50,1.233s,FAILED
+,,,,,,
+Test Cases/baidu,,,2018-05-24 10:25:49,2018-05-24 10:25:50,0.951s,FAILED
+openBrowser,,,2018-05-24 10:25:50,2018-05-24 10:25:50,0.742s,FAILED

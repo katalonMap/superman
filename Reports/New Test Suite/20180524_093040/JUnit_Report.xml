@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="0" tests="0" failures="1" errors="0">
+   <testsuite name="New Test Suite" tests="0" failures="1" errors="0" time="0" timestamp="2018-05-24 09:30:41" hostname="DESKTOP-NGDSH7O$ - DESKTOP-NGDSH7O" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\test\\superman\\Reports\\New Test Suite\\20180524_093040"/>
+         <property name="logFiles" value="D:\\test\\superman\\Reports\\New Test Suite\\20180524_093040\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="DESKTOP-NGDSH7O$ - DESKTOP-NGDSH7O"/>
+         <property name="hostAddress" value="10.17.11.225"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+      </properties>
+      <testcase name="Test Cases/baidu" classname="Test Cases/baidu" status="FAILED">
+         <failure type="FAILED" message="Unable to open browser with url: 'https://www.baidu.com/' (Root cause: java.net.MalformedURLException: no protocol: http\://10.17.5.122\:5555/wd/hub)"/>
+         <system-out><![CDATA[2018-05-24 09:30:41 - [TEST_CASE][FAILED] - Test Cases/baidu: Test Cases/baidu FAILED because (of) Unable to open browser with url: 'https://www.baidu.com/' (Root cause: java.net.MalformedURLException: no protocol: http\://10.17.5.122\:5555/wd/hub)
+
+2018-05-24 09:30:41 - [TEST_STEP][FAILED] - openBrowser: Unable to open browser with url: 'https://www.baidu.com/' (Root cause: java.net.MalformedURLException: no protocol: http\://10.17.5.122\:5555/wd/hub)
+
+2018-05-24 09:30:42 - [MESSAGE][FAILED] - Unable to open browser with url: 'https://www.baidu.com/' (Root cause: java.net.MalformedURLException: no protocol: http\://10.17.5.122\:5555/wd/hub)]]></system-out>
+         <system-err><![CDATA[2018-05-24 09:30:41 - [TEST_CASE][FAILED] - Test Cases/baidu: Test Cases/baidu FAILED because (of) Unable to open browser with url: 'https://www.baidu.com/' (Root cause: java.net.MalformedURLException: no protocol: http\://10.17.5.122\:5555/wd/hub)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-24 09:30:41 - [TEST_SUITE][FAILED] - New Test Suite: Test Cases/baidu FAILED because (of) Unable to open browser with url: 'https://www.baidu.com/' (Root cause: java.net.MalformedURLException: no protocol: http\://10.17.5.122\:5555/wd/hub)]]></system-out>
+      <system-err><![CDATA[2018-05-24 09:30:41 - [TEST_SUITE][FAILED] - New Test Suite: Test Cases/baidu FAILED because (of) Unable to open browser with url: 'https://www.baidu.com/' (Root cause: java.net.MalformedURLException: no protocol: http\://10.17.5.122\:5555/wd/hub)]]></system-err>
+   </testsuite>
+</testsuites>
